@@ -36,15 +36,15 @@ function towerFrom(x, y, range, attackDmg, fireRate, target, time, bulletColor){
 }
 function addDemonicTower(i, j) {
     money -= towerPrice;
-    setTimeout(function(){tower.push(new towerFrom(j * titleHeigth, i * titleWidth, towerRange, towerDmg, demonnicTowerROF, null, demonnicTowerROF, "red"));
+    tower.push(new towerFrom(j * titleHeigth, i * titleWidth, towerRange, towerDmg, demonnicTowerROF, null, demonnicTowerROF, "red"));
         map[i][j] = tower.length;
-        towerSprites.push(new SpriteSheet(demonicTowerSprite, 64, 64, 10, 5, 3, 0));}, 1500);
+        towerSprites.push(new SpriteSheet(demonicTowerSprite, 64, 64, 10, 5, 3, 0));
 }
 function addWaterTower(i, j){
     money -= towerPrice + 50;
-    setTimeout(function(){tower.push(new towerFrom(j * titleHeigth, i * titleWidth, towerRange * 1,5, towerDmg / 2, waterTowerROF, null, waterTowerROF, "blue"));
+    tower.push(new towerFrom(j * titleHeigth, i * titleWidth, towerRange * 1,5, towerDmg / 2, waterTowerROF, null, waterTowerROF, "blue"));
         map[i][j] = tower.length - 1;
-        towerSprites.push(new SpriteSheet(waterTowerSprite, 64, 64, 10, 5, 3, 0));}, 1500);
+        towerSprites.push(new SpriteSheet(waterTowerSprite, 64, 64, 10, 5, 3, 0));
 }
 function upgradeTowerDmg(){
     if (money >= damageUpgradeCost){
