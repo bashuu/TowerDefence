@@ -1,0 +1,28 @@
+[debug] [2018-09-21T11:20:21.372Z] ----------------------------------------------------------------------
+[debug] [2018-09-21T11:20:21.374Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-21T11:20:21.374Z] CLI Version:   4.2.1
+[debug] [2018-09-21T11:20:21.374Z] Platform:      linux
+[debug] [2018-09-21T11:20:21.374Z] Node Version:  v8.10.0
+[debug] [2018-09-21T11:20:21.374Z] Time:          Fri Sep 21 2018 19:20:21 GMT+0800 (+08)
+[debug] [2018-09-21T11:20:21.374Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-21T11:20:21.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-21T11:20:21.381Z] > authorizing via signed-in user
+[debug] [2018-09-21T11:20:21.382Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-21T11:20:21.382Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-21T11:20:21.827Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-21T11:20:22.251Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/surteitowerdefence  
+ 
+[debug] [2018-09-21T11:20:23.664Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-21T11:20:23.667Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/surteitowerdefence  
+ 
+[debug] [2018-09-21T11:20:25.088Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/baskhuu/Documents/towerdefense-dev'...
+[info] 
+[debug] [2018-09-21T11:20:25.090Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/277279468605/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-21T11:20:26.521Z] <<< HTTP RESPONSE 200
+[info] i  hosting[surteitowerdefence]: Serving hosting files from: public
+[info] ✔  hosting[surteitowerdefence]: Local server: http://localhost:5000
